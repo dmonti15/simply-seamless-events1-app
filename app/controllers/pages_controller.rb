@@ -14,4 +14,8 @@ class PagesController < ApplicationController
   def blog
     render 'blog.html.erb'
   end
+
+  def contact
+    render 'contact.html.erb'
+  end
 end
