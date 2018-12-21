@@ -4,4 +4,9 @@ Rails.application.routes.draw do
   get '/gallery' => 'pages#gallery'
   get '/blog' => 'pages#blog'
   get '/contact' => 'pages#contact'
+
+
+  get '/signup' => 'pages#signup'
+  get '/signin' => 'pages#signin'
+  get '/profile' => 'pages#profile'
 end
