@@ -1,89 +1,86 @@
-  <!-- HOME -->
-  <section id="home" class="module-hero module-parallax module-fade module-full-height bg-dark-50" data-background="assets/images/Floral_Deco_03.jpg">
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main minh-100vh" id="top">
 
-    <div class="hs-caption container">
-      <div class="caption-content">
-        <div class="hs-title-size-3 font-alt m-b-20">
-          Contact Us
-        </div>
-        <div class="hs-title-size-1 font-inc">
-          Moments are fleeting, time passes quickly before your eyes <br> and landscapes are constantly changing. <br> We want to help you create and hold on to memoires of a lifetime!
+
+      <!-- ============================================-->
+      <!-- Preloader ==================================-->
+      <div class="preloader" id="preloader">
+        <div class="loader">
+          <div class="line-scale-pulse-out-rapid">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
-    </div>
-
-  </section >
-  <!-- /HOME -->
+      <!-- ============================================-->
+      <!-- End of Preloader ===========================-->
 
 
-<!-- WRAPPER -->
-  <div class="wrapper">
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="py-0" id="page-contact">
 
-    <!-- CONTACT -->
-    <section class="module">
-
-      <div class="container">
-
-        <!-- MODULE TITLE -->
-        <div class="row">
-
-          <div class="col-sm-6 col-sm-offset-3">
-
-            <h2 class="module-title align-center font-alt">Get in touch</h2>
-
-            <div class="module-subtitle align-center font-inc">
-              If you have no idea where to begin or even if you just have a few questions, please, don't hesitate to leave us a message or give us a ring. We'd love to hear from you! 
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 bg-white pt-8 pb-4 pt-lg-8">
+              <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-lg-8" data-zanim-lg='{"animation":"slide-left","delay":0.6}' data-zanim-trigger="scroll">
+                  <h1 class="text-underline d-inline-block mb-4 mb-lg-6">contact</h1>
+                  <p class="font-weight-bold mb-0">Address:<span class="ml-2 font-weight-normal">Via Cerva 19 - Milano, Italy</span></p>
+                  <p class="font-weight-bold mb-0">Phone:<span class="ml-2 font-weight-normal"><a class="text-700" href="tel:+13234324534">+13234324534</a></span></p>
+                  <p class="font-weight-bold mb-4">E-mail:<span class="ml-2 font-weight-normal font-italic"><a class="text-700" href="mailto:info@sparrow.com">info@sparrow.com</a></span></p>
+                  <div class="mt-3">
+                    <a class="btn btn-dark btn-sm mr-2" href="#"><span class="fab fa-twitter" data-fa-transform="grow-6"></span></a>
+                    <a class="btn btn-dark btn-sm mr-2" href="#"><span class="fab fa-facebook-f" data-fa-transform="grow-6"></span></a>
+                    <a class="btn btn-dark btn-sm mr-2" href="#"><span class="fab fa-google-plus-g" data-fa-transform="grow-6"></span></a>
+                    <a class="btn btn-dark btn-sm" href="#"><span class="fab fa-linkedin-in" data-fa-transform="grow-6"></span></a>
+                  </div>
+                  <h3 class="mt-7">Give us a shout</h3>
+                  <form class="zform mt-4" method="POST">
+                    <input class="form-control border-300" type="hidden" name="to" value="username@domain.extension">
+                    <input class="form-control border-300 mt-3" type="text" placeholder="Your Name" aria-label="Text input with dropdown button">
+                    <input class="form-control border-300 mt-3" type="text" placeholder="Phone Number" aria-label="Text input with dropdown button">
+                    <textarea class="form-control border-300 mt-3" rows="11" placeholder="Your Message" required></textarea>
+                    <button class="btn btn-block btn-dark mt-4" type="submit">Send<span class="fa fa-paper-plane ml-1"></span></button>
+                    <div class="zform-feedback mt-4"></div>
+                  </form>
+                </div>
+              </div>
             </div>
-
+            <div class="col-lg-6 px-0">
+              <div class="sticky-top ovrflow-hidden-y">
+                <div class="googlemap minh-100vh d-none d-lg-block" data-latlng="48.8588723,2.2932638" data-pov='{"heading":120,"pitch":0}' data-scrollwheel="false" data-icon="assets/images/map-marker.png" data-zoom="1" data-theme="streetview" data-zanim-lg='{"animation":"zoom-out-slide-left","delay":0.4}'
+                  data-zanim-trigger="scroll"></div>
+                <!--Mobile Fallback-->
+                <div class="googlemap minh-50vh d-lg-none" data-latlng="48.8588723,2.2932638" data-pov='{"heading":75,"pitch":0}' data-scrollwheel="false" data-icon="assets/img/map-marker.png" data-zoom="17" data-theme="Default">
+                  <div class="marker-content py-3">
+                    <h5>Eiffel Tower</h5>
+                    <p>Gustave Eiffel's iconic, wrought-iron 1889 tower,
+                      <br> with steps and elevators to observation decks.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
         </div>
-        <!-- /MODULE TITLE -->
+        <!-- end of .container-->
 
-        <!-- CONTACT FORM -->
-        <div class="row">
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
 
-          <div class="col-sm-6 col-sm-offset-3">
 
-            <form id="contact-form" role="form" novalidate="">
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
 
-              <div class="form-group">
-                <label class="sr-only" for="cname">Name</label>
-                <input type="text" id="cname" class="form-control" name="cname" placeholder="Name" required="" data-validation-required-message="Please enter your name." aria-invalid="false">
-                <p class="help-block text-danger"></p>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="cemail">Your Email</label>
-                <input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail" required="" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
 
-              <div class="form-group">
-                <textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message" required="" data-validation-required-message="Please enter your message."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
 
-              <button type="submit" class="btn btn-round btn-g">Submit</button>
-
-            </form>
-
-            <!-- Ajax response -->
-            <div id="contact-response" class="ajax-response font-alt"></div>
-
-          </div>
-
-        </div>
-        <!-- /CONTACT FORM -->
-
-      </div>
-
-    </section>
-    <!-- /CONTACT -->
-
-    <!-- DIVIDER -->
-    <hr class="divider-w">
-    <!-- /DIVIDER -->
-
-  </div>
-  <!-- WRAPPER -->
+  
