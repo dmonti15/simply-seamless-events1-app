@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get '/blog' => 'pages#blog'
   get '/contact' => 'pages#contact'
 
+  resources :contacts, only: [:new, :create]
+
 
   get '/signup' => 'pages#signup'
   get '/signin' => 'pages#signin'
