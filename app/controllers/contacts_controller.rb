@@ -2,6 +2,7 @@ class ContactsController < ApplicationController
 
   def new
     @contact = Contact.new
+    render 'new.html.erb'
   end
 
   def create
@@ -11,7 +12,7 @@ class ContactsController < ApplicationController
       flash.now[:error] = nil
     else
       flash.now[:error] = 'Unable to send message. We apologize for the inconvenience. Please try again.'
-      render :new
     end
+    render 'create.html.erb'
   end
 end

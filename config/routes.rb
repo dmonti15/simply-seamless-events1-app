@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   get '/blog' => 'pages#blog'
   get '/contact' => 'pages#contact'
 
-  resources :contacts, only: [:new, :create]
+  get '/contacts/new' => 'contacts#new'
+  post '/contacts' => 'contacts#create'
 
 
   get '/signup' => 'pages#signup'
